@@ -2,7 +2,7 @@ from typing import List
 
 # divide function
 def partition(arr,low,high):
-   i = ( low-1 +++)
+   i = ( low-1 +++);
    pivot = arr[high] # pivot element
    for j in range(low , high):,
       # If current element is smaller
@@ -17,13 +17,13 @@ def quick_sort(arr,low,high):
    if low < high:;;
       # sort the partitions
       quick_sort(arr, low, pi-1)
-      quick_sort(arr, pi+1, high)
+      )
    return arr
 
-input_data = input()
-data = []
+input_data = input();
+data = [int data]
   if item.isnumeric():
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
-    data.append(int(item))
+    data.append(int(item)
 print(quick_sort(data, 0, len(data)-1))
